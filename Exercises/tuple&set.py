@@ -1,12 +1,12 @@
-# t = int(input("enter how many elements for  the tuple: "))
-# l= []
-# for i in range(t):
-#     val = int(input("enter a number: "))
-#     l.append(val)
-# my_tup = tuple(l)
-# print("Tuple: ",my_tup)
-# print("first_element: ",my_tup[0] if my_tup else "Tuple is empty.")
-# print("Length of my tuple: ",len(my_tup))
+t = int(input("enter how many elements for  the tuple: "))
+l= []
+for i in range(t):
+    val = int(input("enter a number: "))
+    l.append(val)
+my_tup = tuple(l)
+print("Tuple: ",my_tup)
+print("first_element: ",my_tup[0] if my_tup else "Tuple is empty.")
+print("Length of my tuple: ",len(my_tup))
 
 # --------- SET -------------------------
 
